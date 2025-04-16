@@ -12,7 +12,7 @@ public class j77_abstract_class {
         // c.changeColor();
         // H.changeColor();
         
-        Mustang My = new Mustang(); // Animal-> Horse-> Mustang 
+        Mustang ford = new Mustang(); // Animal-> Horse-> Mustang 
         // My.eats();
         // My.walk();
     }
