@@ -16,7 +16,7 @@ interface Herbivore {
 
 class Bear implements Herbivore, Carnivore {
     public void eatsMeat() {
-        System.out.println("Eats fish");
+        System.out.println("\nEats fish");
     }
 
     public void eatsPlants() {

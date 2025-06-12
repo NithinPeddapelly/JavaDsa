@@ -1,5 +1,8 @@
 public class j78_Interfaces {
     public static void main (String args[]){  // We can create classes like this for every piece
+        ChessPlayer Red_King = new King();
+        Red_King.moves();
+        Red_King.commandPower();
         Queen Red_Queen = new Queen();
         Red_Queen.moves();
         Red_Queen.commandPower();
@@ -13,10 +16,10 @@ interface ChessPlayer{  //bluePrint
 
 class King implements ChessPlayer{
     public void moves(){
-        System.out.println("Moves just one step — up, down, left, right, and diagonal ");
+        System.out.println("Moves just one step  up, down, left, right, and diagonal ");
     }
     public void commandPower(){
-        System.out.println(" Lose him, and the war is lost.");
+        System.out.println("Lose him, and the war is lost.");
     }
 }
 class Queen implements ChessPlayer{
