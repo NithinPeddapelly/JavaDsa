@@ -24,7 +24,7 @@ abstract class Animal{  // abstract class - can have abstract methods - cannot c
         color = "Brown"; //By default it makes the color of the animal brown until we change it using changeColor method.
     }
     void eats(){
-        System.out.println("eats");
+        System.out.println("eats"); 
     }
     abstract void walk();  // only gives the method definition - idea of method
 }
