@@ -3,7 +3,9 @@ public class poweroptimised {
         if (n == 0) {
             return 1;
         }
-        int halfPowersq = optimizedPower(x, n / 2) * optimizedPower(x, n / 2);
+        int halfPower = optimizedPower(x, n / 2);
+        int halfPowersq = halfPower * halfPower ;
+
         if (n % 2 != 0) {
             halfPowersq = x * halfPowersq;
         }
