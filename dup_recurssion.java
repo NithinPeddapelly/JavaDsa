@@ -23,16 +23,18 @@ public class dup_recurssion {
             return n;
         }
 
-        //choice
-        // single
-        int fnm1 = friendsParing(n-1);
+        // //choice
+        // // single
+        // int fnm1 = friendsParing(n-1);
 
-        // pair
-        int fnm2 = friendsParing(n-2);
-        int pairways = (n-1) * fnm2;
+        // // pair
+        // int fnm2 = friendsParing(n-2);
+        // int pairways = (n-1) * fnm2;
 
-        int totalways = fnm1 + pairways;
-        return totalways;
+        // int totalways = fnm1 + pairways;
+        // return totalways;
+
+        return friendsParing(n-1) + (n-1) * friendsParing(n-2);
     }
 
     public static void main(String args[]) {
