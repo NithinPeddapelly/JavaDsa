@@ -34,7 +34,18 @@ public class merge_Sort {
             }
             k++;
         }
+
+        //left part
+        while(i >= mid){
+            temp[k++] = arr[i++]
+        }
+
+        // right part
+        while(j <= ending_i){
+            temp[k++] = arr[j];
+        }
         
+        // Copy temp to orignal arr
 
     }
 
