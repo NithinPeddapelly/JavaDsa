@@ -78,7 +78,14 @@ public class recurssion_basics {
         return isFound;
     }
 
-    
+    public static int power(int x , int n){
+        int xnm1 = power(x, n-1);
+        int xn = x * xnm1;
+        return xn;
+
+    }
+
+
  
     public static void main(String args[]) {
         int key = 3;
