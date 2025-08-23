@@ -2,6 +2,10 @@ public class tilling_amazon {
     
     public static int tillingProblem(int n){  // 2 * n (floor size)
         
+        //base case
+        if (n ==0 || n ==1){
+            return 1;
+        }
         //vertical choice
          int fnm1 = tillingProblem(n-1);
 
@@ -13,6 +17,8 @@ public class tilling_amazon {
     }
 
     public static void main(String args[]){
+        int n = 2;
+        System.out.println(tillingProblem(n));
 
     }
 
