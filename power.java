@@ -5,7 +5,7 @@ public class power {
         }
         int halfPower = optimizedPower(x, n/2) * optimizedPower(x, n/2);
 
-        if (n%2 == 0){
+        if (n % 2 != 0){
             halfPower = x * halfPower;
         }
         return halfPower;
