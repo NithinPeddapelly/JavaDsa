@@ -23,7 +23,6 @@ public class binary_String {
             print_binary_Strings(n - 1, 1, newStr + "1");
 
         }
-
     }
 
     public static void main(String args[]) {
