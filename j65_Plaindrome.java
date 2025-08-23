@@ -15,7 +15,7 @@ public class j65_Plaindrome {
         return true;
     }
     public static void main(String args[]) {
-        String name = "rrrr";
+        String name = "rrdrr";
         plaindromecheck(name);
         
     }
