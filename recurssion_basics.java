@@ -78,14 +78,28 @@ public class recurssion_basics {
         return isFound;
     }
 
-    
+    public static int power(int x , int n){
+        if(n == 0){
+            return 1;
+        }
+        int xnm1 = power(x, n-1);
+        int xn = x * xnm1;
+        return xn;
+
+        // return x * power(x, n-1);
+    }
+ 
+
  
     public static void main(String args[]) {
         int key = 3;
-        int n = 26;
+        int n = 5;
+        int x = 2;
         int arr[] = {1, 2, 3, 4, 5, 6, 7, 3};
 
-        System.out.println(lastOccurence(arr, key, 0));
+        System.out.println(power(x, n));
+
+        // System.out.println(lastOccurence(arr, key, 0));
 
         // System.out.println(firstOccurence(arr, 71, 0));
 
