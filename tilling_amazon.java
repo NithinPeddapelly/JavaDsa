@@ -17,7 +17,7 @@ public class tilling_amazon {
     }
 
     public static void main(String args[]){
-        int n = 2;
+        int n = 4;
         System.out.println(tillingProblem(n));
 
     }
