@@ -1,15 +1,16 @@
 import java.util.Scanner;
-public class a1{
-    public static void main(String args[]){
+
+public class a1 {
+    public static void main(String args[]) {
         Scanner sc = new Scanner(System.in);
         int a = sc.nextInt();
-        int sum  = 0;
+        int sum = 0;
 
-        for(int i = 0;i<=a;i++){
+        for (int i = 0; i <= a; i++) {
             sum += i;
         }
         System.out.println(sum);
         sc.close();
-        
+
     }
 }
